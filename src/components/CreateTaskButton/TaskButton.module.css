@@ -1,0 +1,22 @@
+.button{
+    width: 150px;
+    height: 40px;
+    align-self: self-start;
+    /* background-color: rgb(110, 205, 110); */
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: inherit;
+    transition: scale 0.2s ease-out; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.button:hover{
+    scale: calc(1.01);
+    opacity: 0.9;
+}
+
+.button:active{
+    scale: calc(0.99);
+}

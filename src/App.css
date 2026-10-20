@@ -1,0 +1,43 @@
+.App{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* .container-task{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+} */
+
+.container-task{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+/* .pushRight{
+  position: absolute;
+ margin-left: auto;
+ right: 0;
+}  */
+
+/* .pushLeft{
+  position: absolute;
+  margin-right: auto;
+  right: 0;
+ 
+}  */
+
+.pushLeft, .pushRight {
+  width: 40px; /* Укажите ширину, в которую помещаются ваши кнопки */
+  display: flex;
+  justify-content: center;
+}

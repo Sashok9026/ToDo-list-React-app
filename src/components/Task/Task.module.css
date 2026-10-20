@@ -1,0 +1,21 @@
+.task{
+    min-width: 200px;
+    max-width: 400px;
+    padding: 10px 10px;
+    background-color:rgb(162, 134, 98);
+    border-radius: 5px;
+    color: rgb(6, 0, 72);
+    font-size: 15px;
+    text-align: center;
+    overflow-wrap: break-word;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease;
+}
+
+.task:hover{
+    scale: calc(1.01);
+}
+
+.completed{
+    background-color: rgb(104, 228, 104) !important; 
+}

@@ -1,0 +1,17 @@
+.deleteButton {
+   width: 24px;
+  height: 24px;
+  border: none;
+  cursor: pointer;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23ff4d4f' stroke-width='2'%3E%3Cpolyline points='3 6 5 6 21 6'/%3E%3Cpath d='M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2'/%3E%3C/svg%3E") no-repeat center / contain;
+
+}
+
+.deleteButton:hover {
+  opacity: 0.85;
+  scale: calc(1.01);
+}
+
+.deleteButton:active{
+    scale: calc(0.99);
+}
